@@ -12,7 +12,7 @@ def create_new_file(folder_name):
 
 	sorted_list = sorted(combined_list, key=lambda x: x[2], reverse=True)
 
-	with open(folder_name + '/new.txt', "w+") as new_file:
+	with open(folder_name + '/new.txt', "w") as new_file:
 		for item in sorted_list:
 			new_file.write(f'{item[0]}\n')
 			new_file.write(f'{item[1]}\n')
