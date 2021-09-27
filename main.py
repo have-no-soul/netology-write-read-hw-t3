@@ -1,18 +1,4 @@
-from pprint import pprint
-
 import os
-
-
-# def create_combined_list(folder_name):
-# file_list = os.listdir(folder_name)
-# combined_list = []
-# 
-# for file in file_list:
-# 	with open(folder_name + "/" + file) as f:
-# 		file_lines = f.readlines()
-# 		combined_list.append([file, len(file_lines), file_lines])
-# 
-# return sorted(combined_list, key=lambda x: x[2], reverse=True)
 
 
 def create_new_file(folder_name):
